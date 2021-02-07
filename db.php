@@ -1,13 +1,12 @@
 <?php
-$conn = mysqli_connect(
-    'localhost',
-    'root',
-    '',
-    'php_crud_mysql'
-);
 
-// if (isset($conn)) {
-//     echo 'DB is connected';
-// }
+session_start();
+
+$conn = mysqli_connect(
+  'localhost',
+  'karmaester',
+  'Car26290686!',
+  'php_crud_mysql'
+) or die(mysqli_erro($mysqli));
 
 ?>
