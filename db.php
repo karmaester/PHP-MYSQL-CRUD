@@ -6,7 +6,7 @@ $conn = mysqli_connect(
   'localhost',
   'karmaester',
   'Car26290686!',
-  'php_crud_mysql'
+  'concesionario'
 ) or die(mysqli_erro($mysqli));
 
 ?>

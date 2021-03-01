@@ -8,40 +8,6 @@
     <title>PHP/MYSQL</title>
 </head>
 <body>
-<script>
-function validar(element)
-{
-const min=parseInt(element.dataset.lengthmin);
-if(element.value.length>=min)
-{
-
-element.classList.remove("borderRed");
-return true;
-}else{
-
-alert("Debe ingresar el minimo de caracteres indicados");
-element.classList.add("borderRed");
-return false;
-}
-}
-
-function validarFormulario(formulario)
-{
-let result=true;
-const input=formulario.querySelectorAll("input[type=text]");
-// recorremos todos los input para ver si algun input no cumple con los caracteres minimos
-for (i of input) {
-if (validar(i)==false) {
-result=false;
-}
-}
-return result;
-}
-</script>
-<style>
-.borderGrey {border:2px solid Grey;}
-.borderRed {border-color: Red;}
-</style>
 <nav class="navbar navbar-dark bg-dark">
     <div class="container">
         <a href="index.php" class="navbar-brand">

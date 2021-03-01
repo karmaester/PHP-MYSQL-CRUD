@@ -18,7 +18,7 @@
                 <form action="save_car.php" method="POST">
                     <div class="form-group">
                         <label for="register">Register</label>
-                        <input type="text" name="register" class="form-control" onkeyup=validar(this); data-lengthMin="6" placeholder="Enter value" autofocus>
+                        <input type="text" name="register" class="form-control" data-lengthMin="6" placeholder="Enter value" autofocus>
                         <label for="serial_engine">Engine Serial</label>
                         <input type="text" name="serial_engine" class="form-control" placeholder="Enter value">
                         <label for="serial_chassis">Chassis Serial</label>
@@ -28,7 +28,7 @@
                         <label for="model">Model</label>
                         <input type="text" name="model" class="form-control" placeholder="Enter model">
                         <label for="year">Year</label>
-                        <input type="text" name="year" class="form-control" onkeyup=validar(this); data-lengthMin="4" placeholder="Enter year">
+                        <input type="text" name="year" class="form-control" data-lengthMin="4" placeholder="Enter year">
                         <label for="color">Color</label>
                         <input type="text" name="color" class="form-control" placeholder="Enter color">
                         <label for="price">Price</label>
