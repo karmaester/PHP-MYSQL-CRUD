@@ -1,10 +1,8 @@
-# PHP Shopping Cart
+# PHP MYSQL CRUD
 
-- Shopping cart
+- CRUD for car shop using PHP and Mysql
 
 ![screenshot](images/screenshot1.png)
-![screenshot](images/screenshot2.png)
-![screenshot](images/screenshot3.png)
 
 ## :hammer: Built With
 
@@ -19,8 +17,8 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Open the console
-- Download or git clone git@github.com:karmaester/PHP-Shopping-Cart.git
-- cd PHP-Shopping-Cart
+- Download or git clone git@github.com:karmaester/PHP-MYSQL-CRUD.git
+- cd PHP-MYSQL-CRUD
 
 ## :bust_in_silhouette: Author
 
@@ -34,15 +32,11 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/karmaester/PHP-Shopping-Cart/issues).
+Feel free to check the [issues page](https://github.com/karmaester/PHP-MYSQL-CRUD/issues).
 
 ## :muscle: Show your support
 
 Give a ⭐️ if you like this project!
-
-## :grey_exclamation: Acknowledgments
-
-- Webslessons [tutorial](https://www.webslesson.info/2016/08/simple-php-mysql-shopping-cart.html).
 
 ## 📝 License
 
